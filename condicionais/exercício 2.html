@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+</head>
+<body>
+    
+<script>
+    
+    var salario = Number(prompt('Informe o valor do seu salário: '))
+
+    if(salario <= 280){
+        var result = (salario * 0.2)
+        var final = result + salario
+
+        document.write(`Antes seu salário era: ${salario} <br>`)
+        document.write(`A porcentagem de aumento foi: 20% <br>`)
+        document.write(`O valor do aumento foi: ${result} <br>`)
+        document.write(`O seu novo salário é: ${final}`)
+    }
+
+
+    if((salario > 280) && (salario <= 700)){
+        var result = (salario * 0.15)
+        var final = result + salario
+
+        document.write(`Antes o seu salário era: ${salario} <br>`)
+        document.write(`A porcentagem de aumento foi: 15% <br>`)
+        document.write(`O valor do aumento foi: ${result} <br>`)
+        document.write(`O seu novo salário é: ${final}`)
+    }
+
+
+    if((salario > 700) && (salario <= 1500)){
+        var result = (salario * 0.1)
+        var final = result + salario
+
+        document.write(`Antes o seu salário era: ${salario} <br>`)
+        document.write(`A porcentagem de aumento foi: 10% <br>`)
+        document.write(`O valor do aumento foi: ${result} <br>`)
+        document.write(`O seu novo salário é: ${final}`)
+    }
+
+
+    if(salario > 1500){
+        var result = (salario * 0.05)
+        var final = result + salario
+
+        document.write(`Antes o seu salário era: ${salario} <br>`)
+        document.write(`A porcentagem de aumento foi: 5% <br>`)
+        document.write(`O valor do aumento foi: ${result} <br>`)
+        document.write(`O seu novo salário é: ${final}`)
+    }
+
+
+</script>
+
+</body>
+</html>

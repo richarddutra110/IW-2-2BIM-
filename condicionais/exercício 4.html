@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04</title>
+</head>
+<body>
+    
+            <script>
+
+                var a = Number(prompt('Informe um valor para a'))
+
+                var b = Number(prompt('Informe um valor para b'))
+                
+                var c = Number(prompt('Informe um valor para c'))
+
+
+
+                var delta = Math.pow(b, 2) - 4 * a * c
+                
+                var equacao1 = (-1 * b + Math.sqrt(delta))/2 * a
+                
+                var equacao2 = (-1 * b - Math.sqrt(delta))/2 * a
+
+                
+                alert(`Os valores informados foram: ${a}, ${b} e ${c} \nO valor de delta ficou como: ${delta} \nOs resultados da equação foram: X¹ = ${equacao1}; X² = ${equacao2}`)
+
+            </script>
+
+</body>
+</html>

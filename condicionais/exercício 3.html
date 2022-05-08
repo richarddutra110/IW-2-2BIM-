@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03</title>
+</head>
+<body>
+    
+        <script>
+            
+            var nota1 = Number(prompt('Digite sua primeira nota'))
+            var nota2 = Number(prompt('Digite sua segunda nota'))
+            var total = (nota1 + nota2)/2
+
+
+            if((total >= 0) && (total <= 4)){
+                alert(`Suas notas foram: ${nota1} e ${nota2} \nSua média é de: ${total} \nSeu conceito final foi: E \nVocê foi reprovado`)
+            }
+
+
+            if((total > 4) && (total <= 6)){
+                alert(`Suas notas foram: ${nota1} e ${nota2} \nSua média é de: ${total} \nSeu conceito final foi: D \nVocê foi reprovado`)
+            }
+
+
+            if((total > 6) && (total <= 7.5)){
+                alert(`Suas notas foram: ${nota1} e ${nota2} \nSua média é de: ${total} \nSeu conceito final foi: C \nVocê foi aprovado`)
+            }
+
+
+            if((total > 7.5) && (total <= 9)){
+                alert(`Suas notas foram: ${nota1} e ${nota2} \nSua média é de: ${total} \nSeu conceito final foi: B \nVocê foi aprovado`)
+            }
+
+
+            if((total > 9) && (total <= 10)){
+                alert(`Suas notas foram: ${nota1} e ${nota2} \nSua média é de: ${total} \nSeu conceito final foi: A \nVocê foi aprovado`)
+            }
+
+
+        </script>
+
+</body>
+</html>
