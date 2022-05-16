@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 3</title>
+</head>
+<body>
+    
+    <script>
+
+
+                var A = Number(prompt('Informe o número de habitantes do país A'))
+                var ra = Number(prompt('Informe a taxa de crescimento populacional'))
+                var B = Number(prompt('Informe o número de habitantes do país B'))
+                var lb = Number(prompt('Informe a taxa de crescimento populacional'))
+                cont = 0
+
+                if(B > A){
+                while (B > A){
+                    A = A + (A * (ra/100))
+                    B = B + (B * (lb/100))
+                    cont ++
+
+                if(B < A){
+                    alert(`Serão necessários cerca de ${cont} anos para que a população do país A ultapasse ou iguale a população do país B`) 
+
+                    var A = Number(prompt('Informe o número de habitantes do país A'))
+                    var ra = Number(prompt('Informe a taxa de crescimento populacional'))
+                    var B = Number(prompt('Informe o número de habitantes do país B'))
+                    var lb = Number(prompt('Informe a taxa de crescimento populacional'))
+                    cont = 0
+                        }
+                    }
+                }
+                else{
+                    while (A > B){
+                    A = A + (A * (ra/100))
+                    B = B + (B * (lb/100))
+                    cont ++
+
+                    if(A < B){
+                        alert(`Serão necessários cerca de ${cont} anos para que a população do país B ultapasse ou iguale a população do país A`) 
+
+                        var A = Number(prompt('Informe o número de habitantes do país A'))
+                        var ra = Number(prompt('Informe a taxa de crescimento populacional'))
+                        var B = Number(prompt('Informe o número de habitantes do país B'))
+                        var lb = Number(prompt('Informe a taxa de crescimento populacional'))
+                        cont = 0
+                        }
+                    }   
+                }
+
+    </script>
+
+</body>
+</html>
