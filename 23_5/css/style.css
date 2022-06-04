@@ -1,0 +1,28 @@
+* {
+    transition: 1s;
+}
+
+.conteudo {
+
+    text-align: center;
+
+    padding-top: 10%;
+    transition: 0.3s;
+
+}
+
+
+
+#botao {
+
+    height: 40px;
+
+    width: 70px;
+    transition: 0.3s;
+}
+
+img{
+    width: 20%;
+    transition: 0.3s;
+}
+
